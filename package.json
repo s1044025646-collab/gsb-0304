@@ -1,0 +1,19 @@
+{
+  "name": "knapsack-backend",
+  "version": "1.0.0",
+  "description": "01 knapsack optimal selection and counting backend (TypeScript + Node.js + SQLite)",
+  "type": "module",
+  "main": "dist/src/cli.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/test/knapsack.test.js",
+    "start": "npm run build && node dist/src/cli.js serve",
+    "demo": "npm run build && node dist/src/demo.js",
+    "cli": "node dist/src/cli.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  }
+}
