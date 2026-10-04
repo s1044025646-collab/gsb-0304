@@ -1,0 +1,22 @@
+{
+  "name": "knapsack-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "零一背包最优选择与同值方案计数后端（TypeScript + Node.js + SQLite）",
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "start": "node src/cli.ts serve",
+    "cli": "node src/cli.ts",
+    "demo": "node src/cli.ts demo",
+    "test": "node --test \"test/*.test.ts\""
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.6.0"
+  }
+}

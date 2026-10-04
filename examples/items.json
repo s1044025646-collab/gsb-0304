@@ -1,0 +1,8 @@
+{
+  "name": "经典三物品",
+  "items": [
+    { "id": 1, "weight": 2, "value": 3 },
+    { "id": 2, "weight": 3, "value": 4 },
+    { "id": 3, "weight": 4, "value": 5 }
+  ]
+}
